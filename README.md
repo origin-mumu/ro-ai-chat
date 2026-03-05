@@ -127,7 +127,7 @@ socket.on("chat_error", (error) => {
 ### 2. Mimo (mimo-v2-flash)
 
 - 模型名称: `mimo`
-- API 端点: 小觅 Mimo API
+- API 端点: 小米 Mimo API
 - 配置变量: `VITE_MIMO_API_KEY`, `VITE_MIMO_API_URL`
 
 ## 开发指南
