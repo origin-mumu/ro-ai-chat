@@ -1,6 +1,6 @@
 # ro-Aichat - AI 聊天应用服务
 
-一个基于 Node.js 和 Socket.IO 的 AI 聊天应用后端服务，支持多种 AI 模型接口。
+一个基于 Node.js 和 Socket.IO 的 AI 聊天应用，支持多种 AI 模型接口。
 
 ## 项目特性
 
