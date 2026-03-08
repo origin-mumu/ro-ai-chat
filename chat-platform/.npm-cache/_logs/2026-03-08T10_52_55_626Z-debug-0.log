@@ -1,0 +1,169 @@
+0 verbose cli D:\nvm4w\nodejs\node.exe D:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.2
+3 silly config load:file:D:\Users\MI\AppData\Local\nvm\v20.19.2\node_modules\npm\npmrc
+4 silly config load:file:D:\桌面\ro-Aichat\chat-platform\.npmrc
+5 silly config load:file:C:\Users\MI\.npmrc
+6 silly config load:file:D:\Program Files\nodejs\node_global\etc\npmrc
+7 verbose title npm install localforage
+8 verbose argv "install" "localforage" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\桌面\ro-Aichat\chat-platform\.npm-cache\_logs\2026-03-08T10_52_55_626Z-
+10 verbose logfile D:\桌面\ro-Aichat\chat-platform\.npm-cache\_logs\2026-03-08T10_52_55_626Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest localforage@*
+15 silly packumentCache full:https://registry.npmjs.org/localforage cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/localforage 513ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/localforage set size:undefined disposed:false
+19 silly placeDep ROOT localforage@1.10.0 OK for: llm-chat-platform@0.0.0 want: *
+20 silly fetch manifest lie@3.1.1
+21 silly packumentCache full:https://registry.npmjs.org/lie cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/npm 754ms
+23 http fetch GET 200 https://registry.npmjs.org/lie 185ms (cache miss)
+24 silly packumentCache full:https://registry.npmjs.org/lie set size:undefined disposed:false
+25 silly placeDep ROOT lie@3.1.1 OK for: localforage@1.10.0 want: 3.1.1
+26 silly fetch manifest immediate@~3.0.5
+27 silly packumentCache full:https://registry.npmjs.org/immediate cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/immediate 189ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/immediate set size:undefined disposed:false
+30 silly placeDep ROOT immediate@3.0.6 OK for: lie@3.1.1 want: ~3.0.5
+31 silly reify moves {}
+32 silly audit bulk request {
+32 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+32 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+32 silly audit   '@babel/parser': [ '7.28.5' ],
+32 silly audit   '@babel/types': [ '7.28.5' ],
+32 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+32 silly audit   '@oxc-project/runtime': [ '0.97.0' ],
+32 silly audit   '@oxc-project/types': [ '0.97.0' ],
+32 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.0-beta.50' ],
+32 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.50' ],
+32 silly audit   '@types/dompurify': [ '3.0.5' ],
+32 silly audit   '@types/linkify-it': [ '5.0.0' ],
+32 silly audit   '@types/markdown-it': [ '14.1.2' ],
+32 silly audit   '@types/mdurl': [ '2.0.0' ],
+32 silly audit   '@types/node': [ '24.10.1' ],
+32 silly audit   '@types/trusted-types': [ '2.0.7' ],
+32 silly audit   '@vitejs/plugin-vue': [ '6.0.2' ],
+32 silly audit   '@volar/language-core': [ '2.4.23' ],
+32 silly audit   '@volar/source-map': [ '2.4.23' ],
+32 silly audit   '@volar/typescript': [ '2.4.23' ],
+32 silly audit   '@vue/compiler-core': [ '3.5.24' ],
+32 silly audit   '@vue/compiler-dom': [ '3.5.24' ],
+32 silly audit   '@vue/compiler-sfc': [ '3.5.24' ],
+32 silly audit   '@vue/compiler-ssr': [ '3.5.24' ],
+32 silly audit   '@vue/devtools-api': [ '7.7.9', '6.6.4' ],
+32 silly audit   '@vue/devtools-kit': [ '7.7.9' ],
+32 silly audit   '@vue/devtools-shared': [ '7.7.9' ],
+32 silly audit   '@vue/language-core': [ '3.1.5' ],
+32 silly audit   '@vue/reactivity': [ '3.5.24' ],
+32 silly audit   '@vue/runtime-core': [ '3.5.24' ],
+32 silly audit   '@vue/runtime-dom': [ '3.5.24' ],
+32 silly audit   '@vue/server-renderer': [ '3.5.24' ],
+32 silly audit   '@vue/shared': [ '3.5.24' ],
+32 silly audit   '@vue/tsconfig': [ '0.8.1' ],
+32 silly audit   'alien-signals': [ '3.1.0' ],
+32 silly audit   argparse: [ '2.0.1' ],
+32 silly audit   birpc: [ '2.8.0' ],
+32 silly audit   'copy-anything': [ '4.0.5' ],
+32 silly audit   csstype: [ '3.2.3' ],
+32 silly audit   defu: [ '6.1.4' ],
+32 silly audit   'detect-libc': [ '2.1.2' ],
+32 silly audit   dompurify: [ '3.3.1' ],
+32 silly audit   entities: [ '4.5.0' ],
+32 silly audit   'estree-walker': [ '2.0.2' ],
+32 silly audit   fdir: [ '6.5.0' ],
+32 silly audit   'highlight.js': [ '11.11.1' ],
+32 silly audit   hookable: [ '5.5.3' ],
+32 silly audit   'is-what': [ '5.5.0' ],
+32 silly audit   lightningcss: [ '1.30.2' ],
+32 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+32 silly audit   'linkify-it': [ '5.0.0' ],
+32 silly audit   'magic-string': [ '0.30.21' ],
+32 silly audit   'markdown-it': [ '14.1.0' ],
+32 silly audit   mdurl: [ '2.0.0' ],
+32 silly audit   mitt: [ '3.0.1', '2.1.0' ],
+32 silly audit   'muggle-string': [ '0.4.1' ],
+32 silly audit   nanoid: [ '3.3.11' ],
+32 silly audit   'path-browserify': [ '1.0.1' ],
+32 silly audit   'perfect-debounce': [ '1.0.0' ],
+32 silly audit   picocolors: [ '1.1.1' ],
+32 silly audit   picomatch: [ '4.0.3' ],
+32 silly audit   pinia: [ '3.0.4' ],
+32 silly audit   'pinia-plugin-persistedstate': [ '4.7.1' ],
+32 silly audit   postcss: [ '8.5.6' ],
+32 silly audit   'punycode.js': [ '2.3.1' ],
+32 silly audit   rfdc: [ '1.4.1' ],
+32 silly audit   rolldown: [ '1.0.0-beta.50' ],
+32 silly audit   'source-map-js': [ '1.2.1' ],
+32 silly audit   speakingurl: [ '14.0.1' ],
+32 silly audit   superjson: [ '2.2.5' ],
+32 silly audit   tinyglobby: [ '0.2.15' ],
+32 silly audit   typescript: [ '5.9.3' ],
+32 silly audit   'uc.micro': [ '2.1.0' ],
+32 silly audit   'undici-types': [ '7.16.0' ],
+32 silly audit   'rolldown-vite': [ '7.2.5' ],
+32 silly audit   'vscode-uri': [ '3.1.0' ],
+32 silly audit   vue: [ '3.5.24' ],
+32 silly audit   'vue-observe-visibility': [ '2.0.0-alpha.1' ],
+32 silly audit   'vue-resize': [ '2.0.0-alpha.1' ],
+32 silly audit   'vue-router': [ '4.6.3' ],
+32 silly audit   'vue-tsc': [ '3.1.5' ],
+32 silly audit   'vue-virtual-scroller': [ '2.0.0-beta.8' ],
+32 silly audit   localforage: [ '1.10.0' ],
+32 silly audit   lie: [ '3.1.1' ],
+32 silly audit   immediate: [ '3.0.6' ]
+32 silly audit }
+33 silly tarball no local data for immediate@https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz. Extracting by manifest.
+34 silly tarball no local data for localforage@https://registry.npmjs.org/localforage/-/localforage-1.10.0.tgz. Extracting by manifest.
+35 silly tarball no local data for lie@https://registry.npmjs.org/lie/-/lie-3.1.1.tgz. Extracting by manifest.
+36 http fetch GET 200 https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz 160ms (cache miss)
+37 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 299ms
+38 silly audit report {
+38 silly audit report   dompurify: [
+38 silly audit report     {
+38 silly audit report       id: 1114017,
+38 silly audit report       url: 'https://github.com/advisories/GHSA-v2wj-7wpq-c8vv',
+38 silly audit report       title: 'DOMPurify contains a Cross-site Scripting vulnerability',
+38 silly audit report       severity: 'moderate',
+38 silly audit report       vulnerable_versions: '>=3.1.3 <=3.3.1',
+38 silly audit report       cwe: [Array],
+38 silly audit report       cvss: [Object]
+38 silly audit report     }
+38 silly audit report   ],
+38 silly audit report   'markdown-it': [
+38 silly audit report     {
+38 silly audit report       id: 1113190,
+38 silly audit report       url: 'https://github.com/advisories/GHSA-38c4-r59v-3vqw',
+38 silly audit report       title: 'markdown-it is has a Regular Expression Denial of Service (ReDoS)',
+38 silly audit report       severity: 'moderate',
+38 silly audit report       vulnerable_versions: '>=13.0.0 <14.1.1',
+38 silly audit report       cwe: [Array],
+38 silly audit report       cvss: [Object]
+38 silly audit report     }
+38 silly audit report   ]
+38 silly audit report }
+39 silly packumentCache corgi:https://registry.npmjs.org/dompurify cache-miss
+40 silly packumentCache corgi:https://registry.npmjs.org/markdown-it cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/markdown-it 181ms (cache miss)
+42 silly packumentCache corgi:https://registry.npmjs.org/markdown-it set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/dompurify 205ms (cache miss)
+44 silly packumentCache corgi:https://registry.npmjs.org/dompurify set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/lie/-/lie-3.1.1.tgz 531ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/localforage/-/localforage-1.10.0.tgz 567ms (cache miss)
+47 silly ADD node_modules/immediate
+48 silly ADD node_modules/lie
+49 silly ADD node_modules/localforage
+50 verbose cwd D:\桌面\ro-Aichat\chat-platform
+51 verbose os Windows_NT 10.0.26200
+52 verbose node v20.19.2
+53 verbose npm  v10.8.2
+54 notice
+54 notice New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.11.0[39m
+54 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.11.0[39m
+54 notice To update run: [4mnpm install -g npm@11.11.0[24m
+54 notice  { force: true, [Symbol(proc-log.meta)]: true }
+55 verbose exit 0
+56 info ok

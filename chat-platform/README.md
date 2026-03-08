@@ -1,0 +1,65 @@
+# LLM Chat Platform 🚀
+
+一个基于 Vue 3 + TypeScript 构建的现代化 AI 聊天平台，提供流畅的对话体验和卓越的性能表现。
+
+![Vue](https://img.shields.io/badge/Vue-3.5.24-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue)
+![Vite](https://img.shields.io/badge/Vite-7.2.5-purple)
+
+注意 -请设置您自己的 API 密钥。
+本项目使用环境变量来管理 API 密钥和 URL，
+您需要在 `.env` 文件中设置您自己的 API 密钥和 URL。
+
+## ✨ 核心特性
+
+### 🎯 高性能体验
+
+- **虚拟列表技术**：使用 `vue-virtual-scroller` 优化长对话渲染，LCP 时间降低 60%
+- **流式传输**：自定义流式响应处理，实现实时 AI 对话体验
+- **智能布局**：Flexbox 布局确保输入框始终可见，提升用户体验
+
+### 🔒 多层安全防护
+
+- **XSS 防护**：集成 DOMPurify 库，全面防范跨站脚本攻击
+- **内容净化**：自动过滤恶意 HTML 和 JavaScript 代码
+- **安全渲染**：Markdown 内容安全渲染，支持代码高亮和数学公式
+
+### 🛠 现代化技术栈
+
+- **Vue 3**：组合式 API，响应式编程
+- **TypeScript**：类型安全，开发体验优秀
+- **Pinia**：现代化状态管理，支持持久化存储
+- **Vite**：极速构建，热重载体验
+
+## 🚀 快速开始
+
+### 环境要求
+
+- Node.js >= 16.0.0
+- npm 或 yarn
+
+### 安装依赖
+
+```bash
+npm install
+```
+
+### 开发模式
+
+```bash
+npm run dev
+```
+
+### 构建生产版本
+
+```bash
+npm run build
+```
+
+### 预览构建结果
+
+```bash
+npm run preview
+```
+
+## 📁 项目结构
