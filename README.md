@@ -220,5 +220,3 @@ npm run build
 ```bash
 npm run preview
 ```
-
-## 📁 项目结构
