@@ -1,0 +1,13 @@
+# 所有子目录的环境文件
+**/.env
+**/.env.*
+!**/.env.example
+
+# 特定目录的环境文件
+chat-back/.env
+chat-back/.env.*
+!chat-back/.env.example
+
+chat-platform/.env  
+chat-platform/.env.*
+!chat-platform/.env.example

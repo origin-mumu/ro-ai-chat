@@ -1,4 +1,4 @@
-# LLM Chat Platform 🚀
+# Ro Aichat 🚀
 
 一个基于 Vue 3 + TypeScript 构建的现代化 AI 聊天平台，提供流畅的对话体验和卓越的性能表现。
 

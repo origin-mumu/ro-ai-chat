@@ -1,0 +1,14 @@
+
+.env
+.env.*
+!.env.example
+
+# 日志文件
+*.log
+
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+build/
